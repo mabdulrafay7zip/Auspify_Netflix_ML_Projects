@@ -1,0 +1,28 @@
+Rows clustered: 8790
+Feature matrix after encoding: (8790, 33)
+k=2: inertia=30301  silhouette=0.1926
+k=3: inertia=24943  silhouette=0.2082
+k=4: inertia=22827  silhouette=0.1495
+k=5: inertia=21413  silhouette=0.1505
+k=6: inertia=20407  silhouette=0.1435
+k=7: inertia=19347  silhouette=0.1441
+k=8: inertia=18680  silhouette=0.1421
+k=9: inertia=17960  silhouette=0.1642
+k=10: inertia=17236  silhouette=0.1697
+
+Chosen k = 3 (highest silhouette score)
+
+Cluster profile:
+          titles  pct_movies  avg_release_year  avg_duration top_genre    top_country top_maturity
+cluster                                                                                          
+0          3458        0.62           2016.10         68.46    Dramas          Other        Adult
+1           589        0.91           1987.67        104.56    Action  United States        Teens
+2          4743        0.73           2016.08         66.71    Dramas  United States        Adult
+
+Netflix Content Segmentation - k=3 clusters, silhouette=0.2082
+
+Cluster 0 (3458 titles): mostly movies (62% movies), centred on Dramas from Other, maturity 'Adult', average release year 2016, average duration value 68.
+Cluster 1 (589 titles): mostly movies (91% movies), centred on Action from United States, maturity 'Teens', average release year 1988, average duration value 105.
+Cluster 2 (4743 titles): mostly movies (73% movies), centred on Dramas from United States, maturity 'Adult', average release year 2016, average duration value 67.
+
+Saved: elbow_and_silhouette.png, cluster_visualisation.png, cluster_profile.csv, cluster_interpretation.txt, results.json
