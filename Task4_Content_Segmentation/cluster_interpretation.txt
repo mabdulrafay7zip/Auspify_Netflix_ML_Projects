@@ -1,0 +1,5 @@
+Netflix Content Segmentation - k=3 clusters, silhouette=0.2082
+
+Cluster 0 (3458 titles): mostly movies (62% movies), centred on Dramas from Other, maturity 'Adult', average release year 2016, average duration value 68.
+Cluster 1 (589 titles): mostly movies (91% movies), centred on Action from United States, maturity 'Teens', average release year 1988, average duration value 105.
+Cluster 2 (4743 titles): mostly movies (73% movies), centred on Dramas from United States, maturity 'Adult', average release year 2016, average duration value 67.

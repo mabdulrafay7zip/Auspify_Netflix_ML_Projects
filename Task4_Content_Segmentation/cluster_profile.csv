@@ -1,0 +1,4 @@
+cluster,titles,pct_movies,avg_release_year,avg_duration,top_genre,top_country,top_maturity
+0,3458,0.62,2016.1,68.46,Dramas,Other,Adult
+1,589,0.91,1987.67,104.56,Action,United States,Teens
+2,4743,0.73,2016.08,66.71,Dramas,United States,Adult
