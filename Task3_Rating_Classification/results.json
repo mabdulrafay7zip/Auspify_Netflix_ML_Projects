@@ -1,0 +1,16 @@
+{
+  "dataset_rows": 8790,
+  "rows_used": 8790,
+  "classes": 10,
+  "accuracy": {
+    "Decision Tree": 0.4306,
+    "Random Forest": 0.4494,
+    "Random Forest (tuned)": 0.5085
+  },
+  "best_model": "Random Forest (tuned)",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 2,
+    "model__n_estimators": 200
+  }
+}

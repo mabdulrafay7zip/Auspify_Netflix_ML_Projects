@@ -1,0 +1,27 @@
+Rows with a usable rating: 8790 of 8790
+Rating classes: {'TV-MA': 3205, 'TV-14': 2157, 'TV-PG': 861, 'R': 799, 'PG-13': 490, 'TV-Y7': 333, 'TV-Y': 306, 'PG': 287, 'TV-G': 220, 'Other': 132}
+Train: 7032 | Test: 1758 | Classes: 10
+
+Decision Tree accuracy: 0.4306
+Random Forest accuracy: 0.4494
+Tuned Random Forest accuracy: 0.5085 | best params: {'model__max_depth': 20, 'model__min_samples_leaf': 2, 'model__n_estimators': 200}
+
+Best model: Random Forest (tuned) (0.5085)
+              precision    recall  f1-score   support
+
+       Other       0.00      0.00      0.00        27
+          PG       0.59      0.51      0.55        57
+       PG-13       0.46      0.31      0.37        98
+           R       0.47      0.45      0.46       160
+       TV-14       0.49      0.41      0.44       431
+        TV-G       0.14      0.02      0.04        44
+       TV-MA       0.56      0.80      0.66       641
+       TV-PG       0.27      0.12      0.16       172
+        TV-Y       0.39      0.44      0.42        61
+       TV-Y7       0.41      0.43      0.42        67
+
+    accuracy                           0.51      1758
+   macro avg       0.38      0.35      0.35      1758
+weighted avg       0.47      0.51      0.48      1758
+
+Saved: classification_report.txt, accuracy_comparison.png, confusion_matrix.png, results.json
