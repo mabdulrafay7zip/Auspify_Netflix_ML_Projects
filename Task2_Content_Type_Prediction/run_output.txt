@@ -1,0 +1,39 @@
+Dataset rows: 8790
+Class balance: {'Movie': 6126, 'TV Show': 2664}
+Train: 7032 | Test: 1758
+
+Logistic Regression: accuracy = 0.9158
+              precision    recall  f1-score   support
+
+       Movie       0.92      0.97      0.94      1225
+     TV Show       0.91      0.80      0.85       533
+
+    accuracy                           0.92      1758
+   macro avg       0.91      0.88      0.90      1758
+weighted avg       0.92      0.92      0.91      1758
+
+
+Decision Tree: accuracy = 0.8862
+              precision    recall  f1-score   support
+
+       Movie       0.92      0.92      0.92      1225
+     TV Show       0.82      0.81      0.81       533
+
+    accuracy                           0.89      1758
+   macro avg       0.87      0.86      0.86      1758
+weighted avg       0.89      0.89      0.89      1758
+
+
+Random Forest: accuracy = 0.9192
+              precision    recall  f1-score   support
+
+       Movie       0.93      0.95      0.94      1225
+     TV Show       0.89      0.84      0.86       533
+
+    accuracy                           0.92      1758
+   macro avg       0.91      0.90      0.90      1758
+weighted avg       0.92      0.92      0.92      1758
+
+
+Best model: Random Forest (0.9192)
+Saved: confusion_matrix.png, model_comparison.png, results.json

@@ -1,0 +1,10 @@
+{
+  "dataset_rows": 8790,
+  "test_rows": 1758,
+  "accuracy": {
+    "Logistic Regression": 0.9158,
+    "Decision Tree": 0.8862,
+    "Random Forest": 0.9192
+  },
+  "best_model": "Random Forest"
+}
