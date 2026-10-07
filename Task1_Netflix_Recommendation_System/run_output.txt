@@ -1,0 +1,44 @@
+Catalogue loaded: 8787 unique titles
+Columns used for profiles: listed_in, country, director, type, rating
+TF-IDF matrix shape: (8787, 5398) (titles x vocabulary terms)
+
+Top 10 recommendations for 'Midnight Mass':
+                     title  similarity    type       country  release_year rating                                       listed_in
+The Haunting of Hill House      0.7267 TV Show United States          2018  TV-MA              TV Dramas, TV Horror, TV Mysteries
+                   Ratched      0.7267 TV Show United States          2020  TV-MA              TV Dramas, TV Horror, TV Mysteries
+ The Haunting of Bly Manor      0.7267 TV Show United States          2020  TV-MA              TV Dramas, TV Horror, TV Mysteries
+   Brand New Cherry Flavor      0.7267 TV Show United States          2021  TV-MA              TV Dramas, TV Horror, TV Mysteries
+             The Originals      0.6875 TV Show United States          2018  TV-14              TV Dramas, TV Horror, TV Mysteries
+                  The Mist      0.6415 TV Show        Canada          2017  TV-MA              TV Dramas, TV Horror, TV Mysteries
+                    Scream      0.6185 TV Show United States          2019  TV-MA         Crime TV Shows, TV Horror, TV Mysteries
+                 Lost Girl      0.6064 TV Show        Canada          2015  TV-14              TV Dramas, TV Horror, TV Mysteries
+             Gerald's Game      0.5980   Movie United States          2017  TV-MA                        Horror Movies, Thrillers
+                Typewriter      0.5910 TV Show         India          2019  TV-MA International TV Shows, TV Horror, TV Mysteries
+
+Top 10 recommendations for 'Ganglands':
+             title  similarity    type       country  release_year rating                                                     listed_in
+        Sentinelle      0.7528   Movie        France          2021  TV-MA              Action & Adventure, Dramas, International Movies
+        Crime Time      0.7210 TV Show        France          2017  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+             Lupin      0.7210 TV Show        France          2021  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+   Earth and Blood      0.7056   Movie        France          2020  TV-MA                       Dramas, International Movies, Thrillers
+     La Révolution      0.6098 TV Show        France          2020  TV-MA      International TV Shows, TV Action & Adventure, TV Dramas
+Marvel's Daredevil      0.5634 TV Show United States          2018  TV-MA                         Crime TV Shows, TV Action & Adventure
+     Fatal Destiny      0.5620 TV Show      Pakistan          2016  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+           Smoking      0.5495 TV Show         Japan          2018  TV-MA Crime TV Shows, International TV Shows, TV Action & Adventure
+             Taken      0.5441 TV Show        France          2018  TV-14           Crime TV Shows, TV Action & Adventure, TV Thrillers
+      Agent Raghav      0.5439 TV Show         India          2015  TV-14 Crime TV Shows, International TV Shows, TV Action & Adventure
+
+Top 10 recommendations for 'The Great British Baking Show':
+                      title  similarity    type        country  release_year rating                                            listed_in
+        Operation Gold Rush      0.6346 TV Show United Kingdom          2016  TV-14                         British TV Shows, Reality TV
+Mary Portas: Secret Shopper      0.6006 TV Show United Kingdom          2016  TV-14 British TV Shows, International TV Shows, Reality TV
+                100% Hotter      0.6006 TV Show United Kingdom          2017  TV-14 British TV Shows, International TV Shows, Reality TV
+            Kitten Rescuers      0.6006 TV Show United Kingdom          2017  TV-14 British TV Shows, International TV Shows, Reality TV
+    Three Wives One Husband      0.6006 TV Show United Kingdom          2018  TV-14 British TV Shows, International TV Shows, Reality TV
+                    Glow Up      0.6006 TV Show United Kingdom          2021  TV-14 British TV Shows, International TV Shows, Reality TV
+              Grand Designs      0.6006 TV Show United Kingdom          2017  TV-14 British TV Shows, International TV Shows, Reality TV
+         Win the Wilderness      0.6006 TV Show United Kingdom          2020  TV-14 British TV Shows, International TV Shows, Reality TV
+                   21 Again      0.5866 TV Show United Kingdom          2019  TV-MA                         British TV Shows, Reality TV
+            The Repair Shop      0.5737 TV Show United Kingdom          2018  TV-PG                         British TV Shows, Reality TV
+
+Saved: recommendations_example.txt, results.json, recommendations_plot.png

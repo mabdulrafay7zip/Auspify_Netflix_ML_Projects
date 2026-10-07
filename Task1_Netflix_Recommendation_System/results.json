@@ -1,0 +1,42 @@
+{
+  "catalogue_titles": 8787,
+  "tfidf_features": 5398,
+  "examples": {
+    "Midnight Mass": [
+      "The Haunting of Hill House",
+      "Ratched",
+      "The Haunting of Bly Manor",
+      "Brand New Cherry Flavor",
+      "The Originals",
+      "The Mist",
+      "Scream",
+      "Lost Girl",
+      "Gerald's Game",
+      "Typewriter"
+    ],
+    "Ganglands": [
+      "Sentinelle",
+      "Crime Time",
+      "Lupin",
+      "Earth and Blood",
+      "La R\u00e9volution",
+      "Marvel's Daredevil",
+      "Fatal Destiny",
+      "Smoking",
+      "Taken",
+      "Agent Raghav"
+    ],
+    "The Great British Baking Show": [
+      "Operation Gold Rush",
+      "Mary Portas: Secret Shopper",
+      "100% Hotter",
+      "Kitten Rescuers",
+      "Three Wives One Husband",
+      "Glow Up",
+      "Grand Designs",
+      "Win the Wilderness",
+      "21 Again",
+      "The Repair Shop"
+    ]
+  }
+}
