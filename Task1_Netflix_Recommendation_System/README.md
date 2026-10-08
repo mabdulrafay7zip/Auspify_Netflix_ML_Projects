@@ -1,6 +1,6 @@
 # Task 1 (Easy) — Netflix Content Recommendation System
 
-**Author:** Muhammad Abdul Rafay — Auspify Technologies ML Intern
+**Author:** Muhammad Abdul Rafay — ML Intern
 
 ## Problem
 Netflix has thousands of titles. When a viewer likes a show, how do we
@@ -10,7 +10,7 @@ that finds titles similar to a given title from the catalogue metadata
 alone.
 
 ## Dataset
-The Netflix titles dataset provided by Auspify Technologies
+The Netflix titles dataset
 (`data/netflix_dataset.csv` in the parent folder): **8,790 rows** with
 columns show_id, type, title, director, country, date_added,
 release_year, rating, duration and listed_in. After removing 3 duplicated
@@ -48,11 +48,11 @@ Similarity chart: `recommendations_plot.png` · Raw run log: `run_output.txt`
 
 ## How to Run
 ```bash
-pip install -r ../../requirements.txt   # from the Auspify_Projects folder
+pip install -r ../../requirements.txt   # from the Projects folder
 python recommendation_system.py
 ```
 The dataset is read from `../../data/netflix_dataset.csv` relative to
-this folder (i.e. `auspify-projects/data/`).
+this folder (the `data/` folder at the repo root).
 
 ## Files
 - `recommendation_system.py` — main script (recommender class + examples)
@@ -61,4 +61,4 @@ this folder (i.e. `auspify-projects/data/`).
 - `results.json`, `run_output.txt` — machine-readable results and run log
 
 ---
-Muhammad Abdul Rafay — Auspify Technologies ML Intern
+Muhammad Abdul Rafay — ML Intern

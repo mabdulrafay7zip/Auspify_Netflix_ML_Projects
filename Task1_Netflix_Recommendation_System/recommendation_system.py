@@ -1,6 +1,6 @@
 """
 Task 1 (Easy) - Netflix Content Recommendation System
-Auspify Technologies ML Internship
+Machine learning project portfolio
 
 Idea
 ----
@@ -9,7 +9,7 @@ A content-based recommender: every title is turned into one short
 type and rating. TF-IDF converts those profiles into vectors and cosine
 similarity tells us which titles are closest to a title the user liked.
 
-Author: Muhammad Abdul Rafay - Auspify Technologies ML Intern
+Author: Muhammad Abdul Rafay - ML Intern
 """
 
 from pathlib import Path
