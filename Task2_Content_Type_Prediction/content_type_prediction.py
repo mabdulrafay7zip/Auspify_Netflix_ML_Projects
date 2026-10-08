@@ -1,6 +1,6 @@
 """
 Task 2 (Easy) - Netflix Content Type Prediction Model
-Auspify Technologies ML Internship
+Machine learning project portfolio
 
 Goal: predict whether a catalogue entry is a Movie or a TV Show using
 only descriptive features (release year, rating, main genre, country,
@@ -15,7 +15,7 @@ so they are neutralised on purpose -
   into maturity bands (Kids / Family / Teens / Adult) instead.
 A first version without these fixes scored a meaningless 100%.
 
-Author: Muhammad Abdul Rafay - Auspify Technologies ML Intern
+Author: Muhammad Abdul Rafay - ML Intern
 """
 
 from pathlib import Path

@@ -1,6 +1,6 @@
 # Task 2 (Easy) — Netflix Content Type Prediction Model
 
-**Author:** Muhammad Abdul Rafay — Auspify Technologies ML Intern
+**Author:** Muhammad Abdul Rafay — ML Intern
 
 ## Problem
 Given only the descriptive information of a Netflix catalogue entry,
@@ -8,7 +8,7 @@ predict whether it is a **Movie** or a **TV Show** — a binary
 classification problem.
 
 ## Dataset
-The Netflix titles dataset provided by Auspify Technologies:
+The Netflix titles dataset:
 **8,790 rows** (6,126 Movies / 2,664 TV Shows). Split 80/20 with
 stratification: 7,032 train / 1,758 test rows.
 
@@ -64,4 +64,4 @@ python content_type_prediction.py
 - `results.json`, `run_output.txt` — results and full run log
 
 ---
-Muhammad Abdul Rafay — Auspify Technologies ML Intern
+Muhammad Abdul Rafay — ML Intern
