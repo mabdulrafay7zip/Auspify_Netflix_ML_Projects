@@ -1,6 +1,6 @@
 """
 Task 3 (Medium) - Netflix Audience Rating Classification
-Auspify Technologies ML Internship
+Machine learning project portfolio
 
 Goal: predict a title's audience rating (TV-MA, TV-14, PG-13, R, ...)
 from its type, release year, duration, main genre, country and a few
@@ -11,7 +11,7 @@ Ratings that appear only a handful of times (e.g. 'NC-17', 'TV-Y') are
 merged into an "Other" group so every class has enough examples to learn
 from. Rows with a missing rating are dropped.
 
-Author: Muhammad Abdul Rafay - Auspify Technologies ML Intern
+Author: Muhammad Abdul Rafay - ML Intern
 """
 
 from pathlib import Path

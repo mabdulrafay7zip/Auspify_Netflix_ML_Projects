@@ -1,6 +1,6 @@
 # Task 3 (Medium) — Netflix Audience Rating Classification
 
-**Author:** Muhammad Abdul Rafay — Auspify Technologies ML Intern
+**Author:** Muhammad Abdul Rafay — ML Intern
 
 ## Problem
 Predict a title's **audience rating** (TV-MA, TV-14, TV-PG, R, PG-13,
@@ -9,7 +9,7 @@ problem. If ratings can be predicted reliably, missing or inconsistent
 ratings in a catalogue can be flagged automatically.
 
 ## Dataset
-The Netflix titles dataset provided by Auspify Technologies:
+The Netflix titles dataset:
 **8,790 rows, all 8,790 with a usable rating**. Ratings appearing fewer
 than 100 times (NC-17, TV-Y7-FV, UR) were merged into an **"Other"**
 class, giving **10 classes**: TV-MA (3,205), TV-14 (2,157), TV-PG (861),
@@ -66,4 +66,4 @@ Note: the grid-search step makes this script take ~2–3 minutes.
 - `classification_report.txt`, `results.json`, `run_output.txt`
 
 ---
-Muhammad Abdul Rafay — Auspify Technologies ML Intern
+Muhammad Abdul Rafay — ML Intern
