@@ -1,6 +1,6 @@
 # Task 4 (Medium) — Netflix Content Segmentation (K-Means Clustering)
 
-**Author:** Muhammad Abdul Rafay — Auspify Technologies ML Intern
+**Author:** Muhammad Abdul Rafay — ML Intern
 
 ## Problem
 Group the Netflix catalogue into **content segments** without using any
@@ -9,7 +9,7 @@ by segment rather than title by title. This is an unsupervised
 **K-Means clustering** task.
 
 ## Dataset
-The Netflix titles dataset provided by Auspify Technologies:
+The Netflix titles dataset:
 all **8,790 rows** are clustered.
 
 ## Approach
@@ -68,4 +68,4 @@ python content_segmentation.py
   `results.json`, `run_output.txt`
 
 ---
-Muhammad Abdul Rafay — Auspify Technologies ML Intern
+Muhammad Abdul Rafay — ML Intern

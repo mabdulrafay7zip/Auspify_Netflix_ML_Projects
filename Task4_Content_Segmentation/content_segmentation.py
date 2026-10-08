@@ -1,6 +1,6 @@
 """
 Task 4 (Medium) - Netflix Content Segmentation (K-Means Clustering)
-Auspify Technologies ML Internship
+Machine learning project portfolio
 
 Goal: group Netflix titles into meaningful segments without using any
 label. Features mix numeric values (release year, number of genres) and
@@ -14,7 +14,7 @@ The number of clusters is chosen by looking at BOTH the elbow method
 (inertia) and silhouette scores, and the segments are visualised with a
 2-D PCA projection.
 
-Author: Muhammad Abdul Rafay - Auspify Technologies ML Intern
+Author: Muhammad Abdul Rafay - ML Intern
 """
 
 from pathlib import Path
